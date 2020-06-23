@@ -3,9 +3,6 @@
 
 
 
-
-
-
 /*---Media Queries---*/
 @media (max width:992px){
 
@@ -45,7 +42,8 @@ figure {
 }
 
 #fixed{
-    background-image: url('img/images.jpg');
+
+    background-image: url('https://img77.uenicdn.com/image/upload/v1564428822/business/811c9ba7-966e-4703-8cad-3bcad2019bfd/IMG-20190727-083757-020jpg.jpg');
     position: fixed;
     display: block;
     top: 0;
