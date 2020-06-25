@@ -1,64 +1,73 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Popper:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
-
-/*---Media Queries---*/
-@media (max width:992px){
-
-}
-@media (max width:768px){
-
-}
-@media (max width:576px){
-
-}
-
-
-/*--Bug Fix --*/
-.carousel-item{
-    transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-    -webkit-backface-visibility: visible;
-    backface-visibility: visible;
-}
-
-/*----Background img --*/
-figure {
-    position: relative;
+html ,body{
+    height: 100%;
     width: 100%;
-    height: 60%;
-    margin: 0!important;
+    font-family: "Roboto" sans-serif;
+    color: rgb(128, 114, 114);
 }
-.fixed-wrap{
-    clip: rect(0, auto, auto,0)
+.navbar{
+    padding: 8rem;
+}
+.navbar-nav li{
+    padding-right: 25px;
+}
+
+.navbar-brand a{
+    width: 60px;
+    height:60px;
+    margin-left: 0 auto;
+}
+.nav-link{
+    font-size: 1.2em !important;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.row-jumbotron{
+    text-align: center;
+    margin: 0;
+    position: center;
+}
+
+.carousel-caption h1{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 15px rgb(155, 103, 103);
+}
+
+.carousel-caption h3{
+    font-size: 150%;
+    font-weight: 400;
+    text-shadow: 2px 2px 10px #000;
 
 }
 
-#fixed{
-
-    background-image: url('https://img77.uenicdn.com/image/upload/v1564428822/business/811c9ba7-966e-4703-8cad-3bcad2019bfd/IMG-20190727-083757-020jpg.jpg');
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    will-change: transform;
+.jumbotron{
+    padding: 1.2rem;
+    border-radius: 0;
 
 }
 
-/*--bootstrap fix--*/
-[class*="col-"]{
-    padding: 1rem;
+.padding{
+    padding-bottom: 2rem;
+}
+
+.About-Us{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+
+.Menu{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.display-4 h3{
+    font-size: 2em;
+    margin: 1rem;
 }
