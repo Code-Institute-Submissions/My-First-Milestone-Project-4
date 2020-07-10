@@ -1,73 +1,145 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=popper:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 html ,body{
     height: 100%;
     width: 100%;
-    font-family: "Roboto" sans-serif;
-    color: #222;
+    color: #4a4a4f;
 }
 
-.navbar{
-    padding: 128px;
-}
-
-.navbar-nav li{
-    padding-right: 20px;
-}
-
-.nav-link{
-    padding: 1.1em !Important;
-    background-color: #4a4f4f;
+.ul{
+     list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .carousel-inner img{
-    width: 100vw;
-    height: 100vh;
+width: 100vw;
+height:100vh;
 }
 
-.carousel-caption{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
+  .carousel-caption{
+     position: absolute;
+     padding-top: 25%;
+     transform: translateY(-50%);
+      }
 
 .carousel-caption h1{
-    font-size: 500%;
     text-transform: uppercase;
-    text-shadow: 2px 2px 15px #000;
+    text-align: center;
+    text-shadow: 1px 1px 15px #000;
+
 }
 
 .carousel-caption h3{
-    font-size: 200%;
-    font-weight: 500;
+    font-size: 65%;
+    font-weight: 100;
     text-shadow: 1px 1px 10px #000;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .jumbotron{
-    padding: 1rem;
+    padding: 1.2rem;
     border-radius: 0;
 }
 
 .padding{
-    padding-bottom: 4rem;
+    padding-bottom:2rem;
 }
 
-.about{
+.display-1{
     width: 75%;
     margin: 0 auto;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
-.about hr{
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
+.display-1 hr{
+    border-top: 2px solid #4a4a4f;
+    width: 85%;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
 }
 
 .menu{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 2rem;
+    text-shadow: 2px 2px 5px orange;
+    text-decoration: none;
 }
+
+.container-fluid p{
+    text-align:center;
+     text-shadow: 2px 2px 5px orange;
+    text-decoration: none;
+
+}
+
+.container a{
+    font-size: 2.5rem;
+    padding: 3rem;
+
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-twitter{
+    color: mediumblue;
+}
+
+.fa-instagram{
+    color: orangered;
+}
+
+.fa-youtube{
+    color: red;
+    
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+    color: #d5d5d5;
+}
+
+footer{
+background-color: #3f3f3f;
+color: #d5d5d5;
+padding-top: 1rem;
+}
+
+hr.light{
+border-top: 1px solid #d5d5d5;
+width: 75%;
+margin-top: 0.6rem;
+margin-bottom: 1rem;
+
+}
+
+footer a{
+    color: #d5d5d5;
+}
+
+
+@media(max-width: 768px){
+    .carousel-caption{
+        top: 45%;
+    }
+
+.carousel-caption h1{
+    font-size: 300%;
+}
+
+.carousel-caption h3{
+    font-size: 150%;
+    font-weight: 360%;
+    padding-bottom: .4rem;
+}
+
+.display-4{
+    font-size: 200px;
+}
+
+
+
