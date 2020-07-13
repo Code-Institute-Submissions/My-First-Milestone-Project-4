@@ -17,9 +17,9 @@ width: 100vw;
 height:100vh;
 }
 
-  .carousel-caption{
+.carousel-caption{
      position: absolute;
-     padding-top: 25%;
+     padding-top: inherit;
      transform: translateY(-50%);
       }
 
@@ -38,32 +38,59 @@ height:100vh;
 }
 
 .jumbotron{
-    padding: 1.2rem;
+    padding: 2rem;
     border-radius: 0;
 }
 
 .padding{
-    padding-bottom:2rem;
+    padding-bottom:8rem;
 }
 
 .display-1{
     width: 75%;
     margin: 0 auto;
     padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+p{
+    font-size: 1rem;
+    letter-spacing: 3px;
 }
 
 .display-1 hr{
     border-top: 2px solid #4a4a4f;
     width: 85%;
     margin-top: .5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
+
+.display-5 img{
+    display: 0 auto;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+}
+
 
 .menu{
     width: 100%;
     margin: 0 auto;
     text-shadow: 2px 2px 5px orange;
     text-decoration: none;
+    padding-top: 2.5rem;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .container-fluid p{
@@ -128,11 +155,11 @@ footer a{
     }
 
 .carousel-caption h1{
-    font-size: 300%;
+    font-size: 500%;
 }
 
 .carousel-caption h3{
-    font-size: 150%;
+    font-size: 450%;
     font-weight: 360%;
     padding-bottom: .4rem;
 }
@@ -141,5 +168,20 @@ footer a{
     font-size: 200px;
 }
 
+@media(max-width: 576px){
+    .carousel-caption{
+        top: 50%;
+    }
 
+.carousel-caption h1{
+    font-size: 250%;
+}
 
+.carousel-caption h3{
+    font-size: 100%;
+    
+}
+
+.carousel-indicators{
+    display: none;
+}
