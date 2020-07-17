@@ -129,7 +129,7 @@ The website’ s aim is also to provide all necessary information in one place f
 
 ## Technologies Used
 
-* This project has included the use of HTML, CSS and Javascript programming langua
+* This project has included the use of HTML, CSS and Javascript programming language
 
 * JQuery - used to simplify some  manipulation for certain functions.
 
