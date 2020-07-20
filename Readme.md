@@ -5,6 +5,8 @@ The purpose of this website is to  introduce the cake studio Freelicious to a po
 options to follow a studio on social platforms and ways to contact the studio in a case of an interest. 
 The website’ s aim is also to provide all necessary information in one place for  current customers. 
 
+* [The Deploy application available here](https://tomazdo10.github.io/My-First-Milestone-Project/)
+
 ### The website will give following information:
 
 - a brief description/introduction about a cake studio
@@ -95,7 +97,7 @@ The website’ s aim is also to provide all necessary information in one place f
 ### Header
 * When arrival to the website the user is greeted with an image slider where showing the main page and different sample images for start.
 
-* Simple click to About us button to direct the users to the next section.
+* Simply click on About us button to direct the users to the next section.
 
 - ![Screenshot (9)](https://user-images.githubusercontent.com/66019489/87678693-268a8480-c773-11ea-8919-966f540b7541.png)
 
@@ -111,15 +113,15 @@ The website’ s aim is also to provide all necessary information in one place f
 
 * From the About Us paige will take you to the Menu wher you can see some images and offers  from the Cake Studio what can be ordered and provided from the side of the Bakery.
 
-* From the Menu paige you will slide down to Gallery where you can see so masterpiece cakes made by Freelicious Cake Studio. Enyoj!
+* From the Menu paige you will slide down to Gallery where you can see some masterpiece cakes made by Freelicious Cake Studio. Enyoj!
 
 * And the last bottom paige will guide you to contact information, working hours and guidance  to social media buttons.
 
-- 
-![Screenshot (10)](https://user-images.githubusercontent.com/66019489/87683955-969c0900-c779-11ea-88d1-18969f8f43d3.png)
-![Screenshot (11)](https://user-images.githubusercontent.com/66019489/87683966-9bf95380-c779-11ea-9125-d0e5946f9796.png)
-![Screenshot (12)](https://user-images.githubusercontent.com/66019489/87683979-a1569e00-c779-11ea-83a7-d63272606dc5.png)
-![Screenshot (13)](https://user-images.githubusercontent.com/66019489/87684014-a7e51580-c779-11ea-91b4-3dea0d18d398.png)
+* 
+![Screenshot (10)](![Screenshot (25)](https://user-images.githubusercontent.com/66019489/87902632-106e1400-ca52-11ea-8671-744f8a95d316.png)
+![Screenshot (11)](![Screenshot (26)](https://user-images.githubusercontent.com/66019489/87902644-17952200-ca52-11ea-80c5-7caa4fc80703.png)
+![Screenshot (12)](![Screenshot (27)](https://user-images.githubusercontent.com/66019489/87902650-1f54c680-ca52-11ea-9658-db84cf1a2696.png)
+![Screenshot (13)](![Screenshot (28)](https://user-images.githubusercontent.com/66019489/87902660-25e33e00-ca52-11ea-9db5-c8611b71bb10.png)
 ![Screenshot (14)](https://user-images.githubusercontent.com/66019489/87684042-b0d5e700-c779-11ea-841f-3a7d87ab3a32.png)
 ![Screenshot (15)](https://user-images.githubusercontent.com/66019489/87684065-b6333180-c779-11ea-9da5-1147d3969c7e.png)
 ![Screenshot (16)](https://user-images.githubusercontent.com/66019489/87684090-bcc1a900-c779-11ea-97ed-a04d433683ad.png)
@@ -141,6 +143,54 @@ The website’ s aim is also to provide all necessary information in one place f
 
 * FontAwesome - Icons in the footer section for social media links coming from this resource.
 
+## Testing Freelicious Website
+
+* To test the website I used the following validators:
+
+- [W3C Markup Validation Service](https://validator.w3.org/nu/#textarea) for HTML I've put the code in the validator and first it was showing me two Parse Error.
+  * The first error was At line 292, column 17 which was (<h5>&copy; freelicious.co.)
+  * The second error showing me was At line 306, column 8 which was (body>↩↩↩</html>↩)
+  * After i did format selection in HTML the error wasn't seen anymore.
+
+- [W3C Markup Validation Service](https://validator.w3.org/nu/#textarea) for CSS I've put the code into the validator. No errors were were found upon final check.
+
+## User Testing
+* As a new wisitor to the website i wanted to see what's the purpose of it.
+  -  User initially lands on Header section, making it quite clear what the website relates to (Cake Studio) so the user knows right away that the purpose of it is Cake Bakery.
+  -  The purpose of the website is extended with a description right below the slide images and in the section in (About Us).
+
+*  As a new visitor of the website, I would like some inspiration from the Bakery what sort of cakes i can order
+   -  The user is directed towards the Menu section where he can choose the potencial cake or he can choose as well from the Gallery.
+
+* As a potential customer/observer, I want social media links available so I can easily access to social network activity.
+
+  -  The social media links are related in the bottom of the page where visitor can get to them and become active on them, subscribe on them and follow us from there.
+
+* As a visitor, I want to be able to get in touch with the website owner
+
+  -  An address and phone number are provided in the bottom of the page as mentioned before the social media links can be as a contact the owner as well.
+
+## Manual Testing
+
+#### Test on Desktop
+
+  - All steps where reapeted in browser's:Mozzila,Chrome and Microsoft Edge
+  - Open the page in the Browser and refresh immediately.
+  - Closed the page and then opened the website again in a new tab and in a new browser window
+  - Scrolled back up to test if I could still go back up and scrolled down
+  - Clicked on the Home Button to see if it works properly to get back on the top of the paige
+  - Try other buttons if they work properly such as (About Us , Menu , Gallery , Contact)
+  - Refresh the paige on each section to see if it stays there when you refresh it.
+
+* Footer section
+   - Hovered over the social media icons to check if the mouse cursor changes to indicate that they are clickable
+   - Clicked on each social media icon to confirm that they all redirect the user to the relevant social media websites
+  
+### Test on Mobile and Tablet
+
+* The same tests that I performed for desktop were also done on mobile and tablet devices.The extra tests nedded to be done where:
+  -  Check the responsiveness and sizing of all website elements
+  -  Pressing the buttons to test the response, confirming the inititation when users hover over these on desktop
 ## Deployment
 
 * I developed this project in GitPod IDE, where I commit it to Git, and then pushed it to GitHub via using the terminal in GitPod. I deployed this Github repository to GitHub Pages via the following process:
